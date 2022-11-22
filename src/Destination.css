@@ -62,7 +62,9 @@ button:hover {
 }
 .dest-title {
     position: absolute;
-    left: 250px;
+   width: 470px;
+   display: flex;
+   justify-content: center;
     top: 160px;
    
 }
