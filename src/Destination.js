@@ -14,7 +14,7 @@ const {name,images,description,distance,travel} = dest[value]
         
             <div className="destination-con">
                 <div>
-                <h1 className="dest-title">03 PICK YOUR DESTINATION</h1>
+              <div className="dest-title"> <h1 >03 PICK YOUR DESTINATION</h1></div>
             <br/>
             <br/>
                 <div className="moon-spin"> <img className="moon" src={images.png} alt={name} title={name}
