@@ -1,0 +1,119 @@
+.technology-page {
+    width: 1400px;
+    color: white;
+    height: 850px;
+    align-items: center;
+    background-image: url(../public/assets/technology/background-technology-desktop.jpg);
+}
+.tech-mb{
+    width: 500px;
+    height: 500px;
+}
+.tech-con {
+    width: 1400px;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.tech-main {
+    /* background-color: red; */
+    width: 400px;
+    /* background-color: palegreen; */
+    display: flex;
+}
+.term {
+    /* background-color: rgb(187, 255, 0); */
+    width: 1090px;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.tech-name {
+    /* background-color: darkorange; */
+    width: 310px;
+}
+.tech-btns {
+    width: 80px;
+    height: 300px;
+    /* background-color: red; */
+    gap: 30px;
+    display: grid;
+    align-items: center;
+}
+.tech-title {
+    position: absolute;
+    width: 1200px;
+    top: 160px;
+    /* background-color: blue; */
+}
+.tech-button {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border: 2px solid white;
+}
+.tech-button:hover {
+    background-color: white;
+  }
+@media screen  and (max-width:500px){
+  .technology-page{
+    display: block;
+    height: 876px;
+    width: 390px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../public/assets/technology/background-technology-mobile.jpg);
+  }  
+  .term {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    /* background-color: brown; */
+  }
+  .tech-mb {
+    position: absolute;
+    top: 190px;
+    width: 320px;
+    height: 250px;
+  }
+  .tech-img {
+    width: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tech-con {
+    width: 390px;
+    /* background-color: palevioletred; */
+    
+  }
+  .tech-main {
+    display: block;
+    width: 320px;
+height: 310px;
+    /* background-color: blue; */
+  }
+  .tech-btns {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+ .tech-title {
+    position: absolute;
+    top: 120px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .tech-button {
+    height: 30px;
+    width: 30px;
+    
+}
+}
