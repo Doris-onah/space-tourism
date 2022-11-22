@@ -15,7 +15,7 @@ const {name,images, role, bio} = crews[value]
     
         <div className="crewpage" >
            <Header />
-            <div className="crew-title"> <h1 className="title">02 MEET YOUR CREW</h1></div>
+            <div className="crew-title"> <h1>02 MEET YOUR CREW</h1></div>
             <div className="crew-con">
            
                 <div className="crew-con2">

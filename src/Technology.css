@@ -72,7 +72,7 @@
   .term {
     display: inline-flex;
     flex-direction: column-reverse;
-    /* background-color: brown; */
+    height: 800px;
   }
   .tech-mb {
     position: absolute;
@@ -88,20 +88,20 @@
   }
   .tech-con {
     width: 390px;
-    /* background-color: palevioletred; */
-    
+    height: 840px;
+   
   }
   .tech-main {
     display: block;
     width: 320px;
 height: 310px;
-    /* background-color: blue; */
   }
   .tech-btns {
     width: 200px;
     height: 50px;
     display: flex;
     align-items: center;
+  justify-content: center;
   }
  .tech-title {
     position: absolute;

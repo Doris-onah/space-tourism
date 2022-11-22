@@ -11,7 +11,7 @@ function ErrorPage() {
     <div className="errorpage">
       <h1>404 page</h1>
       <h1>page not found</h1>
-      <button  onClick={handleClick}>back home</button>
+      <button type="sumit" onClick={handleClick}>back home</button>
       
     </div>
   )

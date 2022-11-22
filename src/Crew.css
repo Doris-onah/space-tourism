@@ -64,13 +64,15 @@
     display: flex;
     justify-content: center;
   }
-  .title {
-    width: 700px;
+  .crew-title {
+    width: 600px;
     align-items: center;
     /* background-color: aqua; */
   }
   @media screen and (max-width:500px) {
     .crew-title{
+      position: absolute;
+      top: 100px;
       height: 30px;
     }
     .crewpage {

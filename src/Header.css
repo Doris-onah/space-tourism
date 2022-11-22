@@ -18,14 +18,12 @@ align-items: center;
     ul {
       display: flex;
       justify-content: space-between;
+      align-items: center;
       width: 600px;
       align-items: center;
       list-style: none;
       font-weight: 400;
     }
-   .nav-items link{
-    background-color: aqua;
-   }
     .logo {
       width: 200px;
       display: flex;
@@ -45,9 +43,10 @@ align-items: center;
     }
     @media screen and (max-width: 500px){
       .header {
-        width: 375px;
+        width: 368px;
         height: 100px;
-        position: relative;
+         position: absolute;
+         top: 14px;
         cursor: pointer;
       }
       .logo {
@@ -63,7 +62,9 @@ align-items: center;
         position: absolute;
         top: 80px;
         right: 8px;
-        width: 100px;
+        /* width: 100px;
+        height: 100px;
+        background-color: blue; */
       }
        
       a {
@@ -76,14 +77,19 @@ align-items: center;
           display: block;
         }
         ul {
-          display: block;
+          display: grid;
+          position: absolute;
           background-color: whitesmoke;
           width: 100px;
-          height: 120px;
+          height: 110px;
+          right: -10px;
           align-items: center;
-         text-align: left;
+          justify-content: center;
          font-size: 15px;
          transition: all 0.3s ease-in;
         }
+       ul:hover {
+        text-decoration: underline;
+       }
        
     }
